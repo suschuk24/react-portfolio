@@ -2,7 +2,12 @@ import React from 'react'
 
 function About() {
     return (
+
         <section className="about" id="about">
+            <div class="quote">
+                <h2>"Websites promote you 24/7: No employee will do that."</h2>
+                <p>-Paul Cockson</p>
+            </div>
             <div>
                 <h3 className="section-title primary-border">
                     About Me

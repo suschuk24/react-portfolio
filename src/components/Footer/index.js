@@ -4,10 +4,8 @@ import React from 'react'
 
 function Footer() {
     return (
-    <div>
-        <p>Github </p>
+    <div className = "footer">
         <FontAwesomeIcon href="google.com" icon={["fab", "github-square"]}  size="xl" />
-        <p>LinkedIn</p>
         <FontAwesomeIcon icon={["fab", "linkedin"]} size="xl" />
         
     </div>
