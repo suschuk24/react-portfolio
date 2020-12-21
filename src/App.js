@@ -5,6 +5,7 @@ import About from './components/About'
 import Work from './components/Work'
 import Footer from './components/Footer'
 import ContactForm from './components/Contact'
+import Resume from './components/Resume'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -25,6 +26,8 @@ function App() {
         return <Work />;
       case 'Contact': 
         return <ContactForm />
+      case 'Resume':
+        return <Resume />
     }
 
   };

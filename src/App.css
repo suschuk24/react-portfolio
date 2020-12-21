@@ -49,6 +49,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .primary-border {
   color: var(--primary-color);
   border-bottom: 3px solid var(--secondary-color);
@@ -155,6 +156,30 @@ header nav ul li a:hover {
   padding: auto;
   border-radius: 40px;
 }
+.form {
+  display: inline;
+   
+}
+.contact-form {
+  display: flex;
+  color:  var(--secondary-color);
+  font-size: 1.2rem;
+  border-radius: 15px;
+  grid-auto-flow: dense;
+  
+}
+.contact-form-info {
+flex: 0 0 32%;
+/* padding: 20px; */
+margin: 20px;
+}
+.contact-form-body {
+  flex: auto;
+  margin: 20px;
+}
+#submit-btn {
+flex: flex-end;
+}
 /* About Me Section */
 .about-me-details {
   margin: 30px;
@@ -177,6 +202,8 @@ header nav ul li a:hover {
   border-radius: 50px 10px;
   box-shadow: 0 0 10px;
 }
+/* Resume */
+
 /* My Deployedd Work Section, contains grid too */
 .my-work {
   background-color: var(--tertiary-color);
@@ -204,7 +231,7 @@ header nav ul li a:hover {
   grid-auto-flow: dense;
 }
 /* grid items */
-.portfolio-grid-item {
+.portfolio-grid-item  {
   padding: 15px;
   margin: 15px;
   border: none;
@@ -236,9 +263,10 @@ header nav ul li a:hover {
   grid-row: 3 / span 2;
   box-shadow: 0 0 40px var(--primary-color);
 }
-.resume {
-  background-image: url(./assets/images/resume-sample.jpg);
-  background-size: cover;
+.resume img {
+  margin: 30px;
+  padding: 10px;
+  background-size: fill;
   grid-column:  4 / span 2;
   grid-row: span 2;
   box-shadow: 0 0 40px var(--primary-color);
