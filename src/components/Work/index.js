@@ -1,4 +1,5 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Work () {
     return (
@@ -18,7 +19,9 @@ function Work () {
                         <a href="https://teamjeangrey.github.io/ultimate-movie-search/" target="_blank">Ultimate Movie
                             Search</a>
                         <p>JavaScript</p>
-                        <p>Using RESTful API</p>
+                        <a href="https://github.com/TeamJeanGrey/ultimate-movie-search">
+                             <FontAwesomeIcon  icon={["fab", "github-square"]}  size="2x" />
+                        </a>
                     </div>
                 </div>
                 {/* <!--Budget-Tracker---> */}
@@ -26,7 +29,9 @@ function Work () {
                     <div className="link">
                         <a href="https://budget-tracker-106.herokuapp.com/" target="_blank">Budget Tracker</a>
                         <p>Node.js</p>
-                        <p>PWA</p>
+                        <a href="https://github.com/suschuk24/budget-tracker">
+                             <FontAwesomeIcon  icon={["fab", "github-square"]}  size="2x" />
+                        </a>
                     </div>
                 </div>
                 {/* <!--Run Buddy--> */}
@@ -34,6 +39,9 @@ function Work () {
                     <div className="link">
                         <a href="https://suschuk24.github.io/run-buddy/" target="_blank">Run Buddy</a>
                         <p>HTML/CSS</p>
+                        <a href="https://github.com/suschuk24/run-buddy">
+                             <FontAwesomeIcon  icon={["fab", "github-square"]}  size="2x" />
+                        </a>
                     </div>
                 </div>
                 {/* <!--Weather Forecast--> */}
@@ -41,6 +49,9 @@ function Work () {
                     <div className="link">
                         <a href="https://suschuk24.github.io/weather-forecast/" target="_blank">Weather Forecast</a>
                         <p>JavaScript</p>
+                        <a href="https://github.com/suschuk24/weather-forecast">
+                             <FontAwesomeIcon  icon={["fab", "github-square"]}  size="2x" />
+                        </a>
                     </div>
                 </div>
                 {/* <!--Weather Forecast Dashboard--> */}
@@ -48,7 +59,9 @@ function Work () {
                     <div className="link">
                         <a href="https://powerful-ravine-82745.herokuapp.com/" target="_blank">Cloud Rolodex</a>
                         <p>Node/Express.js</p>
-                        <p>Using Model View Controller</p>
+                        <a href="https://github.com/Team-Turkey/cloud-rolodex">
+                             <FontAwesomeIcon  icon={["fab", "github-square"]}  size="2x" />
+                        </a>
                     </div>
                 </div>
                 {/* <!--Zookeepr--> */}
@@ -56,6 +69,9 @@ function Work () {
                     <div className="link">
                         <a href="https://arcane-hollows-40719.herokuapp.com/" target="_blank">Zookeepr</a>
                         <p>Express.js</p>
+                        <a href="https://github.com/suschuk24/zookeepr">
+                             <FontAwesomeIcon  icon={["fab", "github-square"]}  size="2x" />
+                        </a>
                     </div>
                 </div>
 
