@@ -1,6 +1,19 @@
+:root {
+  --primary-color: #d3d3d3;
+  --secondary-color: #6a5acd;
+  --tertiary-color: #000000;
+}
+* {
+  box-sizing: border-box;
+}
 .App {
+  margin-top: 0;
+  padding-top: 0;
   text-align: center;
-  
+  background-image: url("./assets/images/hero-bg.jpg");
+  background-size: cover;
+  background-position: 100%;
+  background-attachment: fixed;
 }
 
 .App-logo {
@@ -16,7 +29,6 @@
 
 .App-header {
   background-color: #282c34;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,16 +51,7 @@
 }
 
 /* General Page Styles */
-:root {
-  --primary-color: #000000;
-  --secondary-color: #6a5acd;
-  --tertiary-color: #d3d3d3;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 .primary-border {
   color: var(--primary-color);
@@ -62,7 +65,7 @@
   padding: 30px;
   margin-bottom: 50px;
 }
-.terceriary-border {
+.tertiary-border {
   color: var(--secondary-color);
   border-bottom: 3px solid var(--primary-color);
   margin-top: 20px;
@@ -81,8 +84,6 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   position: sticky;
-  position: -webkit-sticky;
-  top: 0;
 }
 
 .footer {
@@ -100,11 +101,12 @@ header {
     text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
     padding: 2 10px
 }
-header h1 {
+header h2 {
   font-weight: bold;
   font-size: 36px;
   text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
-  padding: 2 10px
+  padding: 2 10px;
+  margin: auto
 }
 header a {
   padding: 2 10px;
@@ -118,7 +120,7 @@ header a:hover {
   color: var(--tertiary-color);
 }
 header nav {
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 header nav ul {
   display: flex;
@@ -144,17 +146,23 @@ header nav ul li a:hover {
 }
 /* quote */
 .quote {
-  background-image: url("./assets/images/hero-bg.jpg");
+  background-image: url("./assets/images/container-bg.jpg");
   background-size: cover;
-  background-position: 80%;
+  background-position: 100%;
+  opacity: 0.7;
   background-attachment: fixed;
   display: flex;
   justify-content: space-around;
-  height: 200px;
-  color: var(--tertiary-color);
   margin: auto;
   padding: auto;
   border-radius: 40px;
+  box-shadow: 0 0 30px var(--primary-color);
+}
+.quote h2, .quote p {
+  padding-top: 2.5rem;
+  color: var(--tertiary-color);
+  color: var(--secondary-color);
+  opacity: 1;
 }
 .form {
   display: inline;
@@ -188,10 +196,15 @@ flex: flex-end;
   align-items: center;
   font-variant: small-caps;
   font-style: italic;
+
 }
 .about-me-details p {
   width: 100%;
-  margin: 30px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px 50px;
+  box-shadow: 0 0 30px var(--tertiary-color);
+  background: var(--secondary-color);
 }
 .my-paragraphs {
   margin: 15px;
@@ -200,11 +213,11 @@ flex: flex-end;
 .about-me-details img {
   max-width: 20%;
   border-radius: 50px 10px;
-  box-shadow: 0 0 10px;
+  box-shadow: 0 0 30px var(--tertiary-color);
 }
 /* Resume */
 
-/* My Deployedd Work Section, contains grid too */
+/* My Deployed Work Section, contains grid too */
 .my-work {
   background-color: var(--tertiary-color);
 }

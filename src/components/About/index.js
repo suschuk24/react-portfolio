@@ -4,10 +4,7 @@ function About() {
     return (
 
         <section className="about" id="about">
-            <div className="quote">
-                <h2>"Websites promote you 24/7: No employee will do that."</h2>
-                <p>-Paul Cockson</p>
-            </div>
+            
             <div>
                 <h3 className="section-title primary-border">
                     About Me
@@ -22,6 +19,10 @@ function About() {
                         that I am passionate about and leverage my skills within a community of cutting edge developers.
                     </p>
                 </div>
+            </div>
+            <div className="quote">
+                <h2>"Websites promote you 24/7: No employee will do that."</h2>
+                <p>-Paul Cockson</p>
             </div>
         </section>
     )
