@@ -20,10 +20,10 @@ function About() {
                     </p>
                 </div>
             </div>
-            <div className="quote">
+            {/* <div className="quote">
                 <h2>"Websites promote you 24/7: No employee will do that."</h2>
                 <p>-Paul Cockson</p>
-            </div>
+            </div> */}
         </section>
     )
 };
